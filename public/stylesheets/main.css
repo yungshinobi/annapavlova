@@ -1,0 +1,134 @@
+body {
+    background-color: #ffffff;
+    color: #1e1b1c;
+    
+}
+
+nav {
+    background-color: white;
+    color: #1e1b1c;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+nav > a {
+    color: #1e1b1c;
+}
+
+nav > a:hover {
+    color: #f76c59;
+}
+
+.nav-link {
+    color: #1e1b1c;
+}
+
+.nav-link:hover {
+    color: #f76c59;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #f76c59;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 108, 89, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.box {
+    background: #f76c59;
+    color: white;
+    padding-top: 36px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-overflow: clip;
+}
+
+.left{
+    width: 50%;
+    float: left;
+    margin-right: 2.5%
+}
+
+.right {
+    width: 47.5%;
+    float: right;
+}
+
+.left img {
+    max-height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.right img{
+    max-height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+@media (max-width: 768px) {
+    .show-md {
+        display: none;
+    }
+    .hide-md {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .show-md {
+        display: block;
+    }
+    .hide-md {
+      display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .hide-md {
+      display: block;
+    }
+    .show-md {
+        display: none;
+    }
+}
+
+
+
+/* @media (max-width: 768px) {
+    .show-lg {
+      display: none;
+    }
+    .show-md {
+        display: none;
+    }
+    .show-sm {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .show-lg {
+      display: none;
+    }
+    .show-md {
+        display: block;
+    }
+    .show-sm {
+      display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .show-lg {
+      display: block;
+    }
+    .show-md {
+        display: none;
+    }
+    .show-sm {
+      display: none;
+    }
+}
+ */
