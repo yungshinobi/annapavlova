@@ -1,7 +1,10 @@
 $(document).ready(function() {
 
   var $slider = $(".slider").slick({
-    dots: true
+    dots: true,
+    autoplay: false,
+    autoplaySpeed: 1500,
+    arrows : false
   });
   
   //массив с фонами
@@ -14,7 +17,7 @@ $(document).ready(function() {
   ];
 
   $slider.on('afterChange', function(e, slick, index) {
-    $('div.left').css('background', bgs[index]);
+    $('ul.slider').css('background', bgs[index]);
   });
 
 });

@@ -1,6 +1,14 @@
 .slick-prev:before {
-    color: coral;
-  }
-  .slick-next:before {
-    color: coral;
-  }
+  color: coral;
+}
+.slick-next:before {
+  color: coral;
+}
+
+.slider {
+    height: 70vh;
+}
+
+.calendar {
+  height: 70vh;
+}

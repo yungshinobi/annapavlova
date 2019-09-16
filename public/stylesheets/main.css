@@ -42,29 +42,10 @@ nav > a:hover {
     text-overflow: clip;
 }
 
-.left{
-    width: 50%;
-    float: left;
-    margin-right: 2.5%
-}
-
-.right {
-    width: 47.5%;
-    float: right;
-}
-
-.left img {
-    max-height: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-
-.right img{
-    max-height: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
+.slider-image {
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain
 }
 
 @media (max-width: 768px) {

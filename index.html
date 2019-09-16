@@ -16,13 +16,27 @@
         <src="https://code.jquery.com/jquery-migrate-3.1.0.min.js" integrity="sha256-ycJeXbll9m7dHKeaPbXBkZH8BuP99SmPm/8q5O+SbBc="crossorigin="anonymous"></script>
         <script src="public/slick/slick.min.js"></script>
         <script src="public/scripts/slider.js"></script>
+        <script src="public/scripts/calendar.js"></script>
         <link rel="stylesheet" type="text/css" href="public/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="public/slick/slick-theme.css"/>
-        <link rel="stylesheet" type="text/css" href="public/stylesheets/slider.css"/>        
+        <link rel="stylesheet" type="text/css" href="public/stylesheets/preloader.css"/>        
     </head>
     
-    <body>        
-        <nav class="navbar navbar-expand-md fixed-top sosi main-nav">
+    <body>
+            <script>
+                    $(window).on('load', function () {
+                      $preloader = $('.loaderArea'),
+                        $loader = $preloader.find('.loader');
+                      $loader.fadeOut();
+                      $preloader.delay(350).fadeOut('slow');
+                    });
+                  </script>
+        <div class="loaderArea">
+            <div class="loader">
+                    <hr/><hr/><hr/><hr/>
+            </div>
+        </div>        
+        <nav class="navbar navbar-expand-md fixed-top main-nav">
             <div class="container">
                 <div class="navbar-collapse collapse nav-content order-2">
                     <ul class="nav navbar-nav">
@@ -59,7 +73,7 @@
             <div class="row">
 
                 <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 hide-md" style="padding: 0">
-                        <img src="public/images/222.jpg" alt="Anna" class="img-fluid">  
+                    <img src="public/images/222.jpg" alt="Anna" class="img-fluid">  
                 </div>
 
                 <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 show-md" style="padding: 0">
@@ -81,25 +95,99 @@
 
         <div class="container" style="margin-top: 5vh">
             <div class="row">
-                <div class="col-md-12">        
-                    <ul class="slider">
+                <div class="col-md-12" style=" padding: 0;">        
+                    <ul class="slider" style="background-color: coral;  transition: .3s linear; margin: 0; padding: 0;">
                         <li>
-                            <div class="left" style="background-color: coral;  transition: .3s linear;"> 
-                                <img src="public/images/333.png" alt="Slider 2" />
-                            </div>
-                            <div class="right">
-                                <img src="public/images/111.png" alt="Slider 2" />
+                            <div> 
+                                <img src="public/images/Без имени.png" class="slider-image" alt="Slider 2" style="object-position: left;"/>
                             </div>
                         </li>
                         <li>
-                            <div class="left" style="background-color: coral;  transition: .3s linear;"> 
-                                <img src="public/images/111.png" alt="Slider 2" />
-                            </div>
-                            <div class="right">
-                                <img src="public/images/333.png" alt="Slider 2" />
+                            <div> 
+                                <img src="public/images/Без имени.png" class="slider-image" alt="Slider 2" style="object-position: right;"/>
                             </div>
                         </li>
                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="margin-top: 0vh">
+            <div class="row">
+                <div class="col-md-12" style=" padding: 0;">        
+                    <ul class="calendar" style="margin: 0; padding: 0;">
+                        <li>
+                            <div> 
+                                <img src="public/images/календарь_Монтажная область 1.jpg" class="slider-image" alt="Slider 1"/>
+                            </div> 
+                        </li>
+                        <li>
+                            <div> 
+                                <img src="public/images/календарь_Монтажная область 1 копия.jpg" class="slider-image" alt="Slider 2"/>
+                            </div> 
+                        </li>
+                        <li> 
+                            <div> 
+                                <img src="public/images/календарь_Монтажная область 1 копия 2.jpg" class="slider-image" alt="Slider 3"/>
+                            </div> 
+                        </li>
+                        <li> 
+                            <div>
+                                <img src="public/images/календарь_Монтажная область 1 копия 3.jpg" class="slider-image" alt="Slider 4"/>
+                            </div>
+                        </li>
+                        <li> 
+                            <div>
+                                <img src="public/images/календарь_Монтажная область 1 копия 4.jpg" class="slider-image" alt="Slider 5"/>    
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="public/images/календарь_Монтажная область 1 копия 5.jpg" class="slider-image" alt="Slider 6"/>
+                            </div>
+                        </li>
+                        <li> 
+                            <div>
+                                <img src="public/images/календарь_Монтажная область 1 копия 6.jpg" class="slider-image" alt="Slider 7"/>
+                            </div>
+                        </li>
+                        <li>
+                             <div> 
+                                <img src="public/images/календарь_Монтажная область 1 копия 7.jpg" class="slider-image" alt="Slider 8"/>
+                             </div>
+                        </li>
+                        <li> 
+                            <div> 
+                                <img src="public/images/календарь_Монтажная область 1 копия 8.jpg" class="slider-image" alt="Slider 9" />
+                            </div>
+                        </li>
+                        <li> 
+                            <div>
+                                <img src="public/images/календарь_Монтажная область 1 копия 9.jpg" class="slider-image" alt="Slider 10" />
+                             </div>
+                        </li>
+                        <li> 
+                            <div> 
+                                <img src="public/images/календарь_Монтажная область 1 копия 10.jpg" class="slider-image" alt="Slider 11"/>
+                            </div>
+                        </li>
+                        <li> 
+                            <div>
+                                <img src="public/images/календарь_Монтажная область 1 копия 11.jpg" class="slider-image" alt="Slider 12"/>    
+                            </div>
+                        </li>
+                        <li> 
+                            <div>
+                                <img src="public/images/календарь_Монтажная область 1 копия 12.jpg" class="slider-image" alt="Slider 13"/>    
+                            </div>
+                        </li>
+                        <li> 
+                            <div>
+                                <img src="public/images/календарь_Монтажная область 1 копия 13.jpg" class="slider-image" alt="Slider 14"/>    
+                            </div>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </div>
