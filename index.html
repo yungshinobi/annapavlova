@@ -17,21 +17,13 @@
         <script src="public/slick/slick.min.js"></script>
         <script src="public/scripts/slider.js"></script>
         <script src="public/scripts/calendar.js"></script>
+        <script src="public/scripts/preloader.js"></script>
         <link rel="stylesheet" type="text/css" href="public/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="public/slick/slick-theme.css"/>
         <link rel="stylesheet" type="text/css" href="public/stylesheets/preloader.css"/>        
     </head>
     
-    <body>
-        <script>
-            $(window).on('load', function () {
-                $preloader = $('.loaderArea'),
-                $loader = $preloader.find('.loader');
-                $loader.fadeOut();
-                $preloader.delay(350).fadeOut('slow');
-            });
-        </script>
-        
+    <body>        
         <div class="loaderArea">
             <div class="loader">
                     <hr/><hr/><hr/><hr/>
