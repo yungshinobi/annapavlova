@@ -24,13 +24,13 @@
         <link rel="stylesheet" type="text/css" href="public/stylesheets/preloader.css"/>        
     </head>
     
-    <body>        
+    <body>   
+        <div id="start"></div>     
         <div class="loaderArea">
             <div class="loader">
                     <hr/><hr/><hr/><hr/>
             </div>
-        </div>
-        <div id="start"></div>        
+        </div>        
         <nav class="navbar navbar-expand-md fixed-top main-nav">
             <div class="container">
                 <div class="navbar-collapse collapse nav-content order-2">
@@ -44,9 +44,11 @@
                     </ul>
                 </div>
                 <ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2">
-                    <li class="nav-item "><a class="nav-link" href="#start">
-                      <img src="public/images/logo.png" style=" height: 32px;">
-                    </a></li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#start">
+                            <img src="public/images/logo.png" style=" height: 4vh;">
+                        </a>
+                    </li>
                     <button class="navbar-toggler ml-2 custom-toggler" type="button" data-toggle="collapse" data-target=".nav-content" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -236,12 +238,16 @@
             <div class="row">
                 <div class="col-md-12" style=" padding: 0;">
                     <div id="map"></div>
-                    <script src="public/scripts/map.js"></script>
-                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_MQZCMzuX9Z6_vbcWEPiHLBGxidjvDYo&callback=initMap"></script>
-                </div>
+                        <script src="public/scripts/map.js"></script>
+                        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_MQZCMzuX9Z6_vbcWEPiHLBGxidjvDYo&callback=initMap"></script>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <footer style="margin-top: 5vh">
+
+        </footer>
         
     </body>
 </html>
