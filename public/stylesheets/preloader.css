@@ -16,10 +16,10 @@
   }
   .loader hr{border:0;margin:0;width:40%;height:40%;position:absolute;border-radius:50%;animation:spin 2s ease infinite}
   
-  .loader :first-child{background:#19A68C;animation-delay:-1.5s}
-  .loader :nth-child(2){background:#F63D3A;animation-delay:-1s}
-  .loader :nth-child(3){background:#FDA543;animation-delay:-0.5s}
-  .loader :last-child{background:#193B48}
+  .loader :first-child{background:#f76c59;animation-delay:-1.5s}
+  .loader :nth-child(2){background:#b74268;animation-delay:-1s}
+  .loader :nth-child(3){background:#58037f;animation-delay:-0.5s}
+  .loader :last-child{background:#ff8e01}
   
   @keyframes spin{
     0%,100%{transform:translate(0)}
