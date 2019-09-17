@@ -48,6 +48,12 @@ nav > a:hover {
     object-fit: contain
 }
 
+
+#map {
+    height: 80vh;  
+    width: 100%;  
+}
+
 @media (max-width: 768px) {
     .show-md {
         display: none;
