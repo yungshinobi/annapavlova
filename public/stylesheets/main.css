@@ -1,7 +1,6 @@
 body {
     background-color: #ffffff;
     color: #1e1b1c;
-    
 }
 
 nav {
@@ -24,6 +23,12 @@ nav > a:hover {
 
 .nav-link:hover {
     color: #f76c59;
+}
+
+.btn {
+    background-color: #f76c59;
+    color: white;
+    width: 100%;
 }
 
 .custom-toggler.navbar-toggler {
@@ -62,6 +67,15 @@ footer {
     overflow: hidden;
 }
 
+p > a {
+    color: #f76c59;
+    text-decoration:underline;
+}
+
+p > a:hover {
+    color: #f76c59;
+    text-decoration:none;
+}
 
 @media (max-width: 768px) {
     .show-md {
