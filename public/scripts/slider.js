@@ -19,7 +19,8 @@ $(document).ready(function() {
     '#bd5732',
     '#eb7d0f',
     '#ff8e01',
-    '#fc831e'
+    '#f76c59',
+    '#e15d5e',
   ];
 
   $slider.on('afterChange', function(e, slick, index) {
